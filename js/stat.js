@@ -93,7 +93,7 @@ window.renderStatistics = function (ctx, players, times) {
 
     ctx.fillText(Math.round(times[i]), columnX, columnYBottom - 2.5 * VERTICAL_GAP - currentBarHeight);
 
-    ctx.fillStyle = 'hsl(242, 79%, ' + getRandomValue(10, 90) + '%';
+    ctx.fillStyle = 'hsl(242, ' + getRandomValue(10, 90) + '%, 79%)';
     if (players[i] === 'Вы') {
       ctx.fillStyle = 'rgba(255, 0, 0, 1)';
     }
